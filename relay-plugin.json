@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "apiVersion": 1,
+  "id": "relay.transfers",
+  "name": "Transfers",
+  "version": "0.1.0",
+  "repository": "genomewalker/relay-plugin-transfers",
+  "permissions": [
+    {
+      "kind": "projectRead",
+      "reason": "Download a selected file from the pane’s host and save it using the native Mac save dialog."
+    }
+  ],
+  "contributions": [
+    {
+      "id": "main",
+      "kind": "tool",
+      "title": "Transfers",
+      "text": "Download a selected file from the pane’s host and save it using the native Mac save dialog.",
+      "operation": "transfers"
+    }
+  ]
+}
